@@ -1,0 +1,161 @@
+header, .head, footer{
+    background-color: #1F2937;
+    margin: 0px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.info{
+    margin: 0px;
+    padding: 100px 200px 100px 200px;
+}
+h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0px;
+    padding-top: 10px;
+    margin-right: auto;
+}
+.headlink{
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 10px;
+    padding-left: 14px;
+    display: flex;
+    text-decoration: none;
+    
+}
+
+.headlink, .head p, .action-call p{   
+    font-size: 20px ;
+    color: #E5E7EB;
+    font-weight: 200px;
+    margin: 0px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    padding: 7px;
+}
+
+
+.head{
+    background-color: #1F2937;;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    justify-content: start;
+
+}
+.top-head{
+    padding: 50px;
+    padding-right: 100px;
+}
+
+h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding-right: 100px;
+}
+.head button{
+    background-color: #3882F6;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px 30px 10px 30px;
+    width: max-content;
+}
+.imghead{
+    background-color: #75858e;
+    border-color: #E5E7EB;
+    align-self: flex-end;
+    width: 600px;
+    height: 250px;
+    float: left;
+}
+
+h2{
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    font-weight: 900;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.info img{
+    width: 200px;
+    height: 200px;
+    border: #3882F6 6px solid;
+    border-radius: 20px;
+}
+figcaption{
+    text-align: center;
+    color: #75858e;
+    font-size: 20px;
+    font-weight: 500;
+}
+.quote blockquote{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0px;
+    padding: 150px 200px 150px 200px;
+}
+blockquote cite{
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    float: inline-end;
+    font-style: normal;
+}
+.action-call{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 25px 100px 25px 100px;
+    margin: 70px 170px 70px 170px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.action-call h5{
+    font-size: 22px;
+    margin: 0px;
+    padding: 0px;
+}
+.action-call button{
+    margin: 4px 100px 4px 300px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 20px;
+    align-self: center;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: #F9FAF8 2px solid;
+    border-radius: 5px;
+}
+footer p{
+    color: #E5E7EB;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
